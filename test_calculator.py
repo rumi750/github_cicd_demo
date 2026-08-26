@@ -1,9 +1,4 @@
-def add(a, b):
-    return a + b
-
-
-def subtract(a, b):
-    return a - b  # Make sure this is MINUS (-)
+from calculator import add, subtract
 
 
 def test_add():
