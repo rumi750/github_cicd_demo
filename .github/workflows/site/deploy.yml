@@ -1,2 +1,15 @@
+name: Deploy and Test Secrets
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test-secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Show secret is masked
         run: echo "Key is ${{ secrets.DEMO_KEY }}"
