@@ -3,7 +3,7 @@ def add(a, b):
 
 
 def subtract(a, b):
-    return a - b  # Make sure this is minus (-), NOT plus (+)
+    return a - b  # <-- Fix operator here (+ to -)
 
 
 def test_add():
