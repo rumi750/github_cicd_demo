@@ -1,0 +1,2 @@
+      - name: Show secret is masked
+        run: echo "Key is ${{ secrets.DEMO_KEY }}"
